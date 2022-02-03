@@ -40,7 +40,7 @@ function Scorecard(html){
     for(let i=0;i<anchor.length;i++){
         let score=searchTool(anchor[i]).attr("href");
         let comp="https://www.espncricinfo.com"+score;
-        console.log(comp);
+        // console.log(comp);
         scoreCardObj.processSingleMatch(comp);
     }
 }
